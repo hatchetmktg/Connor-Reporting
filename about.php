@@ -207,7 +207,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 data-aos="fade-in">Bringing Innovation To Court Reporting Since 1962</h1>
+                <h1 data-aos="fade-in">Bringing Innovation To Court Reporting Since 1963</h1>
             </div>
         </div>
     </div>
