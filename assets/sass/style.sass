@@ -1,0 +1,630 @@
+@import global
+
+//Contact Bar Styles
+#contact-bar 
+    background: $dark-blue
+    color: rgba(255,255,255,.6)
+    padding-top: 10px
+    padding-bottom: 10px
+
+    .logins
+        padding-left: 75px
+
+        a
+            color: rgba(255,255,255,.6)
+    .phone
+        padding-right: 35px
+        text-align: right
+
+        a
+            color: rgba(255,255,255,.6)
+            &:hover
+                color: rgba(255,255,255,.6)
+                text-decoration: none
+        
+        
+
+
+#indy
+    background: url(../images/Indianapolis.jpg) no-repeat center center
+    background-size: cover
+
+#boston
+    background: url(../images/Boston.jpg) no-repeat center center
+    background-size: cover
+
+#miami
+    background: url(../images/Orlando.jpg) no-repeat center center
+    background-size: cover
+
+#chicago
+    background: url(../images/chicago.jpg) no-repeat center center
+    background-size: cover
+
+#la
+    background: url(../images/la.jpg) no-repeat center center
+    background-size: cover
+
+.hero-bg
+    div
+
+        height: 800px
+        @media screen and (max-width: 600px)
+            height: 600px
+
+//Hero Styles
+#hero
+    
+    display: block
+    position: relative
+    width: 100%
+    height: 800px
+    @media screen and (max-width: 600px)
+        height: 600px
+    
+
+    .col-lg-12
+        color: white
+        text-align: center
+        
+        h1 
+            font-weight: 800
+            font-size: 52px
+            margin-bottom: 5px
+            @media screen and (max-width: 600px)
+                font-size: 32px
+            
+
+        p 
+            margin-bottom: 30px
+            font-weight: 600
+            font-size: 22px
+            padding: 0 100px
+            @media screen and (max-width: 600px)
+                padding: 0
+            
+        a 
+            background: $connor-red
+            border-radius: 25px
+            padding: 10px 30px
+            text-decoration: none
+            color: white
+
+.overlay
+    background: radial-gradient(rgba(7,36,64, 0.4), rgba(7,36,64,1))
+    background-size: cover
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 1
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+
+          
+
+//Who-We-Are Styles
+#who-we-are
+    background: $connor-navy
+    color: white
+
+    hr
+        width: 30%
+        border: 3px solid $connor-red
+        margin-bottom: 25px
+    .col-md-5
+        img 
+            width: 95% 
+    .col-md-7 
+        padding-left: 25px
+        h2 
+            width: 40%
+            font-weight: bold
+            margin-bottom: 25px
+
+        .who-we-are
+            &:hover
+                background: white
+                color: $connor-navy
+//Services Styles
+#services 
+    background: $dark-blue
+    color: white
+
+    .row
+        position: relative
+
+        .col-lg-3
+            height: 250px
+            padding: 50px 0
+            text-align: center
+
+            svg
+                margin-bottom: 15px
+
+            img
+                margin-bottom: 15px
+                width: 25%
+            a
+                color: white
+        .service-popup-1
+            position: absolute
+            top: 0
+            right: 0
+            height: 100%
+            background: white
+            opacity: 0
+            z-index: -1
+            color: black
+            padding: 30px 60px 30px 30px
+            transition: .2s ease
+            // background-image: url('../images/connorswoosh.png')
+            // background-position: center center
+            // background-size: cover
+            
+            img
+                position: absolute
+                top: 0
+                left: 18%
+            
+
+            hr
+                width: 30%
+                border: 3px solid $connor-red
+                margin-bottom: 25px
+
+        .service-popup-2
+            position: absolute
+            top: 0
+            left: 0
+            height: 100%
+            background: white
+            opacity: 0
+            z-index: -1
+            color: black
+            padding: 30px 60px 30px 30px
+            transition: .2s ease
+            // background-image: url('../images/connorswoosh.png')
+            // background-position: center center
+            // background-size: cover
+            img
+                position: absolute
+                top: 0
+                left: 18%
+
+            hr
+                width: 30%
+                border: 3px solid $connor-red
+                margin-bottom: 25px
+
+
+
+        .open
+            z-index: 1
+            opacity: 1
+            transition: .2s ease 
+
+
+.service
+    position: relative
+    .overlay
+        background: $connor-red
+        position: absolute
+        height: 100%
+        width: 100%
+        top: 0
+        left: 0
+        display: flex
+        align-items: center
+        justify-content: center
+        opacity: 0
+        transition: .3s ease
+        p
+            color: white
+            font-size: 20px
+            &:hover
+                color: #dddddd
+                text-decoration: none
+                cursor: pointer
+                    
+.service:hover > .overlay
+    opacity: 1
+       
+
+.fa-keyboard 
+    color: white
+
+.fa-video
+    color: white
+
+.fa-desktop
+    color: white
+
+.fa-edit 
+    color: white
+       
+
+//Call-To-Action Styles
+#call-to-action
+    background: linear-gradient(rgba(7,36,64,1), rgba(7,36,64,.5)), url(../images/nasa.jpg) no-repeat center center
+    background-size: cover
+    display: flex
+    height: 600px
+    color: white
+    text-align: center
+    align-items: center
+    @media screen and (max-width: 600px)
+        height: 400px
+
+    .col-lg-12
+        h2 
+            font-weight: bold
+            @media screen and (max-width: 600px)
+                font-size: 28px
+            
+        p 
+            margin-bottom: 30px
+        a 
+            background: $connor-red
+            border-radius: 25px
+            padding: 10px 30px
+            text-decoration: none
+            color: white
+
+//Case Studies
+#case-studies
+    background: $dark-blue
+    color: white
+    text-align: center
+    .col-lg-4
+        height: 400px
+        padding: 125px 0
+        h3 
+            font-weight: bold
+            margin-bottom: 30px 
+        a 
+            background: $connor-red
+            border-radius: 25px
+            padding: 10px 30px
+            text-decoration: none
+            color: white
+    #one
+        background: linear-gradient(rgba(34,79,126,.5), rgba(7,36,64,.9)), url(../images/who-we-are.jpg) no-repeat center center
+        background-size: cover
+       
+    #two 
+        background: url(../images/study-1.jpg) no-repeat center center
+        background-size: cover
+       
+    #three 
+        background: url(../images/study-2.jpg) no-repeat center center
+        background-size: cover
+
+//Carousel 
+
+#carousel
+    background: linear-gradient(rgba(7,36,64,.9), rgba(222, 91, 73, 0.5)), url(../images/trianglify.png) no-repeat center center
+        background-size: cover
+    color: white
+    text-align: center
+    .col-lg-12
+        h2 
+            font-weight: bold
+            font-size: 45px
+            margin-bottom: 55px
+        h4
+            font-weight: bold
+            font-size: 35px
+    
+////////////////////////////////////////////////////////////  
+// Interior Page Template //
+
+//Descriptions Section
+#descriptions
+
+    .col-lg-8
+        padding-left: 70px
+        @media screen and (max-width: 768px)
+            padding: 0 10px
+
+
+
+
+// Call To Action Section
+#call-to-action-two
+    height: 400px
+    padding-bottom: 60px
+    text-align: center
+    background: linear-gradient(rgba(222, 91, 73, 0.5), rgba(7,36,64,0.8)), url(../images/trianglify.png) no-repeat center center
+    background-size: cover
+    //padding: 150px 0
+    color: white
+    padding: 130px
+    @media screen and (max-width: 768px)
+        padding: 90px 0
+    h2 
+        margin-bottom: 30px
+        @media screen and (max-width: 768px)
+            font-size: 28px
+    a 
+        border: 2px solid $connor-red 
+        border-radius: 25px
+        padding: 10px 30px
+        text-decoration: none
+        color: white
+        background: $connor-red
+
+
+////////////////////////////////////////////////////////////    
+//Interior with Photos //
+//All styles are coming from interior page except for the style below.
+#descriptions 
+    .col-lg-8 
+        img 
+            height: 150px
+            width: 150px
+            margin: 20px 20px
+        #schedule-title 
+            font-weight: 800
+            margin-top: 30px
+
+
+///////////////////////////////////////////////////////////
+//Locations page
+
+.col-lg-8
+    
+
+
+#location-studies
+    color: white
+    text-align: center
+    .col-lg-4
+        height: 400px
+        padding: 125px 0
+        h3 
+            font-weight: bold
+            margin-bottom: 30px 
+    #one
+        background: linear-gradient(rgba(34,79,126,.5), rgba(7,36,64,.9)), url(../images/who-we-are.jpg) no-repeat center center
+        background-size: cover
+       
+    #two 
+        background: url(../images/study-1.jpg) no-repeat center center
+        background-size: cover
+       
+    #three 
+        background: url(../images/study-2.jpg) no-repeat center center
+        background-size: cover
+    a 
+        border: 2px solid white
+        border-radius: 25px
+        padding: 10px 30px
+        text-decoration: none
+        color: white
+
+////////////////////////////////////////////////////
+//Contact Page
+
+#form-section 
+    .col-lg-12
+        margin-bottom: 30px
+    .col-lg-7 
+        form 
+            a 
+                border: 2px solid $connor-red
+                border-radius: 25px
+                padding: 10px 30px
+                text-decoration: none
+                color: white
+                background: $connor-red
+    .col-lg-4 
+        h3
+            font-weight: 800
+            padding-right: 30px
+            color: $connor-navy
+
+#locations
+    background: linear-gradient(rgba(222, 91, 73, 0.5), rgba(7,36,64,0.8)), url(../images/trianglify.png), url(../images/usa.png), no-repeat center center
+    background-size: cover
+    color: white
+    padding-bottom: 60px
+    .col-lg-12
+        h2
+
+            font-weight: 800
+            margin-bottom: 55px
+    .col-lg-4 
+        ul 
+            list-style: none
+            padding-left: 140px
+            li
+                margin-bottom: 14px
+
+#locations-list
+
+    .accordion
+
+        .card
+            background-color: white
+            border: none
+            border-bottom: 1px solid #ccc
+            border-radius: 0
+            a
+                color: $connor-red
+            h5
+                button
+                    color: $connor-navy
+                    font-weight: bold
+                    background: none
+                    border: none
+                    font-size: 18px
+                    padding-left: 0px
+                    @media screen and (max-width: 768px)
+                        padding-left: 0px
+                    
+                    &:hover
+                        text-decoration: none
+                    &:focus
+                        text-decoration: none
+                    svg    
+                        transform: rotate(90deg)
+                        transition: .4s ease
+                        position: absolute
+                        top: 15
+                        right: 0
+
+                    
+
+            button.collapsed
+                svg    
+                    transform: rotate(0deg)
+
+            .card-header
+                background-color: white
+                border-bottom: none
+
+            .card-body
+
+                a
+                    color: $connor-red
+                    &:hover
+                        text-decoration: none
+                        color: $connor-red
+
+                ul
+                    list-style-type: none
+                    padding-left: 0
+                    
+                .btn
+                    color: white
+
+                .more-info
+                    margin-bottom: 0px
+
+
+////////////////////////////////////////////////////
+//About Us Page 
+
+#headline 
+    height: 500px
+    background: linear-gradient(rgba(222, 91, 73, 0.5), rgba(34, 79, 126, 1)), url(../images/trianglify.png), no-repeat center center
+    background-size: cover
+    color: white
+    @media screen and (max-width: 768px)
+        display: flex
+        align-items: center
+        height: 500px
+    .col-lg-12
+
+        h1 
+            text-align: center
+            font-weight: 800
+            font-size: 43px
+            margin-top: 20%
+            padding: 0 150px 
+            @media screen and (max-width: 768px)
+                font-size: 28px
+                padding: 0 0px 
+
+#timeline  
+    background: $connor-navy
+    color: white
+    padding: 100px 0px
+    .col-lg-12 
+        h3 
+            text-align: center
+            font-weight: 800
+            margin-bottom: 45px
+        p 
+            text-align: center
+
+#dedication
+    background: linear-gradient(rgba(34, 79, 126, 1), rgba(222, 91, 73, 1)), url(../images/study-1.jpg) no-repeat center center
+    background-size: cover 
+    color: white
+    h3 
+        text-align: center
+        margin-bottom: 60px
+        font-weight: 800
+    .col-lg-6
+        text-align: center
+        padding: 30px 30px
+    
+#team 
+    background: linear-gradient(rgba(222, 91, 73, 1), rgba(222, 91, 73, 0.7))
+    color: white
+    .col-lg-5
+       
+        img 
+            max-width: 100%
+            height: auto
+            @media screen and (max-width: 768px)
+                margin-bottom: 25px
+                display: block
+                margin-right: auto
+                margin-left: auto
+    .col-lg-7
+        h3 
+            font-weight: 800
+        p 
+            margin-bottom: 30px
+        a  
+            border: 2px solid $dark-blue
+            border-radius: 25px
+            padding: 10px 30px
+            text-decoration: none
+            color: white
+            background: $dark-blue
+
+
+#causes 
+    .col-lg-12
+        h3 
+            text-align: center 
+            color: $connor-navy
+            font-weight: 800
+            margin-bottom: 45px
+
+    .col-md-3
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 25px
+        @media screen and (max-width: 768px)
+            width: 49%
+            float: left
+
+
+#team-members
+
+    img
+        margin-bottom: 25px
+
+    h2
+        font-weight: bold
+
+
+        
+// Contact Page
+
+#map
+    margin-bottom: -10px
+
+#shedule-now-button
+    background: $connor-red
+    width: 250px
+    position: fixed
+    top: 50%
+    right: -100px
+    transform: rotate(-90deg)
+    z-index: 999
+    margin-bottom: 0px
+    &:hover
+        cursor: pointer
+    p
+        padding: 15px
+        color: white
+        text-align: center
+        margin-bottom: 0px
