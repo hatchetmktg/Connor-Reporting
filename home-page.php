@@ -41,8 +41,7 @@ get_header();
                 <div class="col-lg-12">
                     <h1>Setting The Record Straight</h1>
                     <p>Serving the legal industry for three generations, Connor Reporting has the experience and resources to provide our clients with exemplary litigation support solutions.</p>
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>scheduling" class="d-none d-sm-inline">Schedule Now!</a>
-                    <a href="tel://(800) 554-3376" class="d-block d-sm-none">Schedule Now!</a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>scheduling">Schedule Now!</a>
                 </div>
             </div>
         </div>

@@ -46,7 +46,6 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>all-locations/louisville-ky">Louisville, KY</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>all-locations/miami-fl">Miami, FL</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>all-locations/minneapolis-mn">Minneapolis, MN</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>all-locations/">See All Locations</a></li>
                     
                 </ul>
             </div>

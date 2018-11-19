@@ -10,7 +10,7 @@ get_header();
         <div class="row">
             <div class="col-md-3 contact-sidebar">
                 <h4>Get In Touch:</h4>
-                <a href="tel://(800) 554-3376"><h3>(800) 554-3376</h3></a>
+                <a href="tel://1-888-283-1161"><h3>1-888-283-1161</h3></a>
                 <hr align="left">
                 <address style="margin-bottom: 45px">111 Monument Cir <br>Suite 4350 <br>Indianapolis, IN 46204</address>
 

@@ -56,7 +56,7 @@
     gtag('config', 'UA-57669016-1');
     </script>
 
-    <script async src="//71482.tctm.co/t.js"></script>
+ 
 
     <?php wp_head(); ?>
 
@@ -74,7 +74,7 @@
                 <a href="https://connorreporting.reporterbase.com/attorney/" target="_blank">Client Login</a> | <a href="https://connorreporting.reporterbase.com/reporter/" target="_blank">Reporter Login</a>
             </div>
             <div class="col-lg-6 phone">
-                <a href="tel://(800) 554-3376">Get in touch: (800) 554-3376</a>
+                <a href="tel://1-888-283-1161">Get in touch: 1-888-283-1161</a>
             </div>
         </div>
     </div>
